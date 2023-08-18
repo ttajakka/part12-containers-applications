@@ -1,0 +1,14 @@
+Script started on 2023-08-18 10:40:59+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="85" LINES="41"]
+]0;tuomas@scherzo:~/programming/part12-containers-applications/script-answers[?2004h[01;32m[tuomas@scherzo[01;37m script-answers[01;32m]$[00m simple
+[?2004l]0;tuomas@scherzo:~/programming/part12-containers-applications/script-answers[?2004h[1;31m>[00m docker container run -t [K[Kit ubuntu bash
+[?2004l[?2004h]0;root@969e4b76228e: /root@969e4b76228e:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@969e4b76228e: /root@969e4b76228e:/# cd usr/src/app/
+[?2004l[?2004h]0;root@969e4b76228e: /usr/src/approot@969e4b76228e:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@969e4b76228e: /usr/src/approot@969e4b76228e:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@969e4b76228e: /usr/src/approot@969e4b76228e:/usr/src/app# cat     exit
+[?2004lexit
+]0;tuomas@scherzo:~/programming/part12-containers-applications/script-answers[?2004h[1;31m>[00m exit
+[?2004lexit
+
+Script done on 2023-08-18 10:41:50+03:00 [COMMAND_EXIT_CODE="0"]
