@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+#### Tuomas's additions:
+
+# REST Client requests
+requests.rest
+
+# Mongo data store
+mongo_data
