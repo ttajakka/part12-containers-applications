@@ -48,4 +48,561 @@ switched to db the_database
     __v: [33m0[39m
   }
 ]
-[1G[0Jthe_database> [15Gdb.todos.insertOne( { text[33mtext[39m: :[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [43G[32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone: fals[33mfalse[39m } )[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[104G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[103G[1D[1G[0Jthe_database> db.todos.insertOne( [44m{[49m [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[102G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[101G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.t
+[1G[0Jthe_database> [15Gdb.todos.insertOne( { text[33mtext[39m: :[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [43G[32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone: fals[33mfalse[39m } )[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[104G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[103G[1D[1G[0Jthe_database> db.todos.insertOne( [44m{[49m [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[102G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[101G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [44m[32m"[49mIncrease the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[87G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[86G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt[44m"[39m[49m, [33mdone[39m: [33mfalse[39m } )[43G[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[42G[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text: "[39mIncrease the number [36mof[39m tools [36min[39m my toolbelt[32m", done: false } )[39m [38G[1A[1C[1C[1C[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[37G[68C
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("64e3584b3452852feb119fde")
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } )[105G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId("64e344f098775c421fd7a1bc"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("64e344f098775c421fd7a1bd"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("64e34cc34038eae166298245"),
+    text: [32m'Visit OAF'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId("64e3584b3452852feb119fde"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@03089395b79e:/# exit
+[?2004lexit
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m pwd
+[?2004l/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m ls\[K
+[?2004lapp.js                  docker-compose.yml  [0m[01;34mmongo[0m         package.json       [01;34mredis[0m          [01;34mutil[0m
+[01;34mbin[0m                     Dockerfile          [01;34mmongo_data[0m    package-lock.json  requests.rest
+docker-compose.dev.yml  [00;32mexercise12_8.txt[0m    [01;34mnode_modules[0m  README.md          [01;34mroutes[0m
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../script-answers/exercise12_8.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m git add ../../
+[?2004l]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   ../../script-answers/exercise12_8.txt[m
+
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m git commit -m :[K"add exericse 12.[K[K[K[K[K[K[K[Kcise 12.7[K8"
+[?2004l[main 5e8c0d4] add exercise 12.8
+ 1 file changed, 51 insertions(+)
+ create mode 100644 script-answers/exercise12_8.txt
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker container run -d [K[K[K0-[K[K00[K[K--name test_resd[K[K[K[K[K-redis redis d[K[K =d[K[K-d
+[?2004lUnable to find image 'redis:latest' locally
+latest: Pulling from library/redis
+
+[1A[2K52d2b7f179e3: Pulling fs layer [1B
+[1A[2K689bed60e397: Pulling fs layer [1B
+[1A[2K2f34c7846499: Pulling fs layer [1B
+[1A[2K723b2c9888ad: Pulling fs layer [1B
+[1A[2K16acd9ca1349: Pulling fs layer [1B
+[1A[2K29771da5b50b: Pulling fs layer [1B[3A[2K723b2c9888ad: Waiting [3B[2A[2K16acd9ca1349: Waiting [2B[1A[2K29771da5b50b: Waiting [1B[4A[2K2f34c7846499: Downloading  15.06kB/1.437MB[4B[5A[2K689bed60e397: Downloading     720B/1.127kB[5B[5A[2K689bed60e397: Downloading  1.127kB/1.127kB[5B[5A[2K689bed60e397: Download complete [5B[4A[2K2f34c7846499: Downloading  63.13kB/1.437MB[4B[4A[2K2f34c7846499: Downloading  127.9kB/1.437MB[4B[4A[2K2f34c7846499: Downloading  262.1kB/1.437MB[4B[6A[2K52d2b7f179e3: Downloading  294.9kB/29.12MB[6B[4A[2K2f34c7846499: Downloading  573.4kB/1.437MB[4B[6A[2K52d2b7f179e3: Downloading  589.8kB/29.12MB[6B[4A[2K2f34c7846499: Downloading  805.2kB/1.437MB[4B[6A[2K52d2b7f179e3: Downloading    883kB/29.12MB[6B[4A[2K2f34c7846499: Downloading    1.1MB/1.437MB[4B[6A[2K52d2b7f179e3: Downloading  1.178MB/29.12MB[6B[4A[2K2f34c7846499: Downloading  1.329MB/1.437MB[4B[4A[2K2f34c7846499: Verifying Checksum [4B[4A[2K2f34c7846499: Download complete [4B[6A[2K52d2b7f179e3: Downloading  1.477MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading   2.37MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  2.968MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  3.263MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  3.865MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  4.463MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  5.356MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  209.3kB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  6.241MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading    426kB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  6.835MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading    639kB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  7.129MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  7.727MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  1.065MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  8.022MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  1.278MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  8.612MB/29.12MB[6B[2A[2K16acd9ca1349: Downloading     134B/134B[2B[2A[2K16acd9ca1349: Verifying Checksum [2B[2A[2K16acd9ca1349: Download complete [2B[3A[2K723b2c9888ad: Downloading  1.491MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  1.704MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  9.202MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  1.917MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading   10.4MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading   2.13MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading     11MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  11.62MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  2.343MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  11.91MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  2.556MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  12.53MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  12.82MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  2.769MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  13.41MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  2.982MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  13.71MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading   14.3MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  3.195MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading   14.6MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading   14.9MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  3.408MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading   15.2MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  15.49MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  3.621MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  15.79MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  3.834MB/20.83MB[3B[1A[2K29771da5b50b: Downloading     575B/575B[1B[1A[2K29771da5b50b: Verifying Checksum [1B[1A[2K29771da5b50b: Download complete [1B[3A[2K723b2c9888ad: Downloading  4.047MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  16.08MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  16.69MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading   4.26MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  17.28MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  4.473MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  18.16MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  4.686MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  18.75MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  4.899MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  19.64MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  20.54MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  20.83MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  5.112MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  21.14MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  21.43MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  5.538MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  21.73MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  5.751MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  22.32MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  5.964MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  22.92MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  23.51MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  6.177MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading   23.8MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading   24.1MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading   6.39MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  24.68MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  6.603MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  24.98MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  25.27MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  6.816MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  25.57MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  25.86MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  7.029MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  26.16MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  26.46MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  7.242MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  27.05MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  27.34MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  7.455MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  27.64MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  27.93MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  7.668MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  28.24MB/29.12MB[6B[6A[2K52d2b7f179e3: Downloading  28.54MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  7.881MB/20.83MB[3B[6A[2K52d2b7f179e3: Downloading  28.83MB/29.12MB[6B[6A[2K52d2b7f179e3: Download complete [6B[3A[2K723b2c9888ad: Downloading  8.094MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  294.9kB/29.12MB[6B[6A[2K52d2b7f179e3: Extracting  2.949MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  8.307MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  6.783MB/29.12MB[6B[6A[2K52d2b7f179e3: Extracting  9.732MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading   8.52MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  12.09MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  8.733MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting   17.1MB/29.12MB[6B[6A[2K52d2b7f179e3: Extracting  22.71MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  8.946MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  24.77MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  9.159MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  27.72MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  9.372MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  28.31MB/29.12MB[6B[3A[2K723b2c9888ad: Downloading  9.585MB/20.83MB[3B[6A[2K52d2b7f179e3: Extracting  29.12MB/29.12MB[6B[6A[2K52d2b7f179e3: Pull complete [6B[5A[2K689bed60e397: Extracting  1.127kB/1.127kB[5B[5A[2K689bed60e397: Extracting  1.127kB/1.127kB[5B[3A[2K723b2c9888ad: Downloading  9.798MB/20.83MB[3B[5A[2K689bed60e397: Pull complete [5B[4A[2K2f34c7846499: Extracting  32.77kB/1.437MB[4B[3A[2K723b2c9888ad: Downloading  10.01MB/20.83MB[3B[4A[2K2f34c7846499: Extracting  1.343MB/1.437MB[4B[4A[2K2f34c7846499: Extracting  1.437MB/1.437MB[4B[4A[2K2f34c7846499: Extracting  1.437MB/1.437MB[4B[4A[2K2f34c7846499: Pull complete [4B[3A[2K723b2c9888ad: Downloading  10.22MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  10.44MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  10.65MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  10.86MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  11.08MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  11.29MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading   11.5MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  11.71MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  11.93MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  12.14MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  12.35MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  12.57MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  12.78MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  12.99MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  13.21MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  13.42MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  13.63MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  13.84MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  14.06MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  14.27MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading   14.7MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  14.91MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  15.34MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  15.55MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  15.97MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  16.19MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  16.61MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  17.04MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  17.25MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  17.68MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  17.89MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading   18.1MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  18.53MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  18.96MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  19.18MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading   19.6MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  20.03MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  20.24MB/20.83MB[3B[3A[2K723b2c9888ad: Downloading  20.67MB/20.83MB[3B[3A[2K723b2c9888ad: Verifying Checksum [3B[3A[2K723b2c9888ad: Download complete [3B[3A[2K723b2c9888ad: Extracting  229.4kB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  458.8kB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  917.5kB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  1.147MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  1.606MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  2.064MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  2.294MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  3.899MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  8.487MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  13.99MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  19.96MB/20.83MB[3B[3A[2K723b2c9888ad: Extracting  20.83MB/20.83MB[3B[3A[2K723b2c9888ad: Pull complete [3B[2A[2K16acd9ca1349: Extracting     134B/134B[2B[2A[2K16acd9ca1349: Extracting     134B/134B[2B[2A[2K16acd9ca1349: Pull complete [2B[1A[2K29771da5b50b: Extracting     575B/575B[1B[1A[2K29771da5b50b: Extracting     575B/575B[1B[1A[2K29771da5b50b: Pull complete [1BDigest: sha256:c45b9ac48fde5e7ffc59e785719165511b1327151c392c891c2f552a83446847
+Status: Downloaded newer image for redis:latest
+
+*** FATAL CONFIG FILE ERROR (Redis 7.2.0) ***
+Reading the configuration file, at line 2
+>>> '"-d"'
+Bad directive or wrong number of arguments
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS       PORTS                                         NAMES
+03089395b79e   mongo     "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker ps -a
+[?2004lCONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                      PORTS                                         NAMES
+d7f064cf2ac6   redis              "docker-entrypoint.s…"   22 seconds ago   Exited (1) 22 seconds ago                                                 test-redis
+03089395b79e   mongo              "docker-entrypoint.s…"   2 hours ago      Up 2 hours                  0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+648328591fcb   todo-server        "docker-entrypoint.s…"   3 days ago       Exited (137) 3 days ago                                                   intelligent_colden
+e913930da90b   express-server     "docker-entrypoint.s…"   3 days ago       Exited (137) 3 days ago                                                   mystifying_chandrasekhar
+f689c3e30280   hello_node_world   "bash"                   3 days ago       Exited (0) 3 days ago                                                     vigorous_grothendieck
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker image ls
+[?2004lREPOSITORY         TAG       IMAGE ID       CREATED        SIZE
+todo-server        latest    f280f1a058c5   3 days ago     941MB
+express-server     latest    4263f52e23d6   3 days ago     920MB
+hello_node_world   latest    688e878c6bce   3 days ago     263MB
+mongo              latest    01e8e54fc538   3 days ago     720MB
+redis              latest    506734eb5e71   4 days ago     138MB
+ubuntu             latest    01f29b872827   2 weeks ago    77.8MB
+hello-world        latest    9c7a54a9a43c   3 months ago   13.3kB
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker run --help
+[?2004l
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+
+Aliases:
+  docker container run, docker run
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping (host:ip)
+      --annotation map                 Add an annotation to the container (passed through to the
+                                       OCI runtime) (default map[])
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight), between 10 and 1000, or 0 to
+                                       disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the container
+      --cgroupns string                Cgroup namespace to use (host|private)
+                                       'host':    Run the container in the Docker host's cgroup
+                                       namespace
+                                       'private': Run the container in its own private cgroup
+                                       namespace
+                                       '':        Use the cgroup namespace as configured by the
+                                                  default-cgroupns-mode option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-period int                 Limit CPU CFS (Completely Fair Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution (0-3, 0,1)
+  -d, --detach                         Run container in background and print container ID
+      --detach-keys string             Override the key sequence for detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed devices list
+      --device-read-bps list           Limit read rate (bytes per second) from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second) from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second) to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to report unhealthy
+      --health-start-period duration   Start period for the container to initialize before
+                                       starting health-retries countdown (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container that forwards signals and
+                                       reaps processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g., 92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus swap: '-1' to enable
+                                       unlimited swap
+      --memory-swappiness int          Tune container memory swappiness (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the container
+      --no-healthcheck                 Disable any container-specified HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000 to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1 for unlimited)
+      --platform string                Set platform if server is multi-platform capable
+      --privileged                     Give extended privileges to this container
+  -p, --publish list                   Publish a container's port(s) to the host
+  -P, --publish-all                    Publish all exposed ports to random ports
+      --pull string                    Pull image before running ("always", "missing", "never")
+                                       (default "missing")
+  -q, --quiet                          Suppress the pull output
+      --read-only                      Mount the container's root filesystem as read only
+      --restart string                 Restart policy to apply when a container exits (default "no")
+      --rm                             Automatically remove the container when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the process (default true)
+      --stop-signal string             Signal to stop the container
+      --stop-timeout int               Timeout (in seconds) to stop a container
+      --storage-opt list               Storage driver options for the container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format: <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the container
+      --volumes-from list              Mount volumes from the specified container(s)
+  -w, --workdir string                 Working directory inside the container
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker run --name [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker ps -a
+[?2004lCONTAINER ID   IMAGE              COMMAND                  CREATED              STATUS                          PORTS                                         NAMES
+d7f064cf2ac6   redis              "docker-entrypoint.s…"   About a minute ago   Exited (1) About a minute ago                                                 test-redis
+03089395b79e   mongo              "docker-entrypoint.s…"   2 hours ago          Up 2 hours                      0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+648328591fcb   todo-server        "docker-entrypoint.s…"   3 days ago           Exited (137) 3 days ago                                                       intelligent_colden
+e913930da90b   express-server     "docker-entrypoint.s…"   3 days ago           Exited (137) 3 days ago                                                       mystifying_chandrasekhar
+f689c3e30280   hello_node_world   "bash"                   3 days ago           Exited (0) 3 days ago                                                         vigorous_grothendieck
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker run -d test-reids[K[K[Kdis
+[?2004lUnable to find image 'test-redis:latest' locally
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker run -d test-redis[1P[1P[1P[1@s[1@t[1@a[1@r[1@t
+[?2004lunknown shorthand flag: 'd' in -d
+See 'docker start --help'.
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker start --help
+[?2004l
+Usage:  docker start [OPTIONS] CONTAINER [CONTAINER...]
+
+Start one or more stopped containers
+
+Aliases:
+  docker container start, docker start
+
+Options:
+  -a, --attach               Attach STDOUT/STDERR and forward signals
+      --detach-keys string   Override the key sequence for detaching a container
+  -i, --interactive          Attach container's STDIN
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker start -i test-redis
+[?2004l
+*** FATAL CONFIG FILE ERROR (Redis 7.2.0) ***
+Reading the configuration file, at line 2
+>>> '"-d"'
+Bad directive or wrong number of arguments
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker container rm test-redis
+[?2004ltest-redis
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker container run -d --name test-reds[Kis redis
+[?2004l3d055d1456448d9c00a13671aec9ecd159d660bd4189182714fc6fb97e7bf53a
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m o[Kdocker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+3d055d145644   redis     "docker-entrypoint.s…"   5 seconds ago   Up 3 seconds   6379/tcp                                      test-redis
+03089395b79e   mongo     "docker-entrypoint.s…"   2 hours ago     Up 2 hours     0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker exer [K[Kc -it testi[K-redis bash
+[?2004l[?2004hroot@3d055d145644:/data# ls
+[?2004l[?2004hroot@3d055d145644:/data# ls 0a  -0a  a
+[?2004l.  ..
+[?2004hroot@3d055d145644:/data# redis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS &[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> M[17C[0K127.0.0.1:6379> MS[18C[0K127.0.0.1:6379> MSE[19C[0K127.0.0.1:6379> MSET[20C[0K127.0.0.1:6379> MSET [0;90;49mkey value [key value ...][0m[21C[0K127.0.0.1:6379> MSET t[0;90;49m key value [key value ...][0m[22C[0K127.0.0.1:6379> MSET te[0;90;49m key value [key value ...][0m[23C[0K127.0.0.1:6379> MSET tes[0;90;49m key value [key value ...][0m[24C[0K127.0.0.1:6379> MSET test[0;90;49m key value [key value ...][0m[25C[0K127.0.0.1:6379> MSET test [0;90;49mvalue [key value ...][0m[26C[0K127.0.0.1:6379> MSET test '[27C[0K127.0.0.1:6379> MSET test [0;90;49mvalue [key value ...][0m[26C[0K127.0.0.1:6379> MSET test \[0;90;49m value [key value ...][0m[27C[0K127.0.0.1:6379> MSET test [0;90;49mvalue [key value ...][0m[26C[0K127.0.0.1:6379> MSET test "[27C[0K127.0.0.1:6379> MSET test "s[28C[0K127.0.0.1:6379> MSET test "so[29C[0K127.0.0.1:6379> MSET test "som[30C[0K127.0.0.1:6379> MSET test "some[31C[0K127.0.0.1:6379> MSET test "some [32C[0K127.0.0.1:6379> MSET test "some t[33C[0K127.0.0.1:6379> MSET test "some te[34C[0K127.0.0.1:6379> MSET test "some tes[35C[0K127.0.0.1:6379> MSET test "some test[36C[0K127.0.0.1:6379> MSET test "some test [37C[0K127.0.0.1:6379> MSET test "some test s[38C[0K127.0.0.1:6379> MSET test "some test st[39C[0K127.0.0.1:6379> MSET test "some test str[40C[0K127.0.0.1:6379> MSET test "some test stri[41C[0K127.0.0.1:6379> MSET test "some test strin[42C[0K127.0.0.1:6379> MSET test "some test string[43C[0K127.0.0.1:6379> MSET test "some test string"[0;90;49m value [key value ...][0m[44C[0K127.0.0.1:6379> MSET test "some test string"[44C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> k[17C[0K127.0.0.1:6379> ke[18C[0K127.0.0.1:6379> key[19C[0K127.0.0.1:6379> keys[20C[0K127.0.0.1:6379> key[19C[0K127.0.0.1:6379> ke[18C[0K127.0.0.1:6379> k[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS &[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "test"
+127.0.0.1:6379> [0K127.0.0.1:6379> M[17C[0K127.0.0.1:6379> MG[18C[0K127.0.0.1:6379> MGE[19C[0K127.0.0.1:6379> MGET[20C[0K127.0.0.1:6379> MGET [0;90;49mkey [key ...][0m[21C[0K127.0.0.1:6379> MGET t[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> MGET te[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> MGET tes[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> MGET test[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> MGET test[25C
+1) "some test string"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@3d055d145644:/data# exit
+[?2004lexit
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:489
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOTFOUND localhots
+[90m    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:511:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-3008[39m,
+  code: [32m'ENOTFOUND'[39m,
+  syscall: [32m'getaddrinfo'[39m,
+  hostname: [32m'localhots'[39m
+}
+
+Node.js v20.3.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m ps -a
+[?2004l    PID TTY          TIME CMD
+   1243 tty2     00:00:00 gnome-session-b
+  61022 pts/0    00:00:00 script
+  64440 pts/3    00:00:00 ps
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+3d055d145644   redis     "docker-entrypoint.s…"   7 minutes ago   Up 7 minutes   6379/tcp                                      test-redis
+03089395b79e   mongo     "docker-entrypoint.s…"   2 hours ago     Up 2 hours     0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [32m200 [0m9.289 ms - 127[0m
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:489
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1574:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:511:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-111[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.3.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [32m200 [0m5.887 ms - 127[0m
+[0mGET / [32m200 [0m3.188 ms - 127[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET / [32m200 [0m16.446 ms - 127[0m
+[0mGET / [32m200 [0m2.877 ms - 127[0m
+[0mGET / [32m200 [0m2.418 ms - 127[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+added_todos: [33m0[39m
+[0mGET /todos [36m304 [0m25.300 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+Promise { [36m<pending>[39m }
+[0mGET /todos [36m304 [0m24.225 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m25.811 ms - -[0m
+[1mnull[22m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/routes/todos.js:9
+  setAsync('added_todos', 69).then(res => console.log(res))
+  ^
+
+ReferenceError: setAsync is not defined
+    at [90m/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mroutes/todos.js:9:3
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+
+Node.js v20.3.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m34.959 ms - -[0m
+OK
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m74.753 ms - -[0m
+OK
+69
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m52.828 ms - -[0m
+OK
+69
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m27.479 ms - -[0m
+69
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npn[Km run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m47.077 ms - -[0m
+[1mnull[22m
+[0mPOST /todos [32m200 [0m26.708 ms - 76[0m
+[0mGET /todos [32m200 [0m11.973 ms - 401[0m
+1
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/app.js:19
+app./use('/statistics', statisticsRouter)
+    ^
+
+SyntaxError: Unexpected token '/'
+[90m    at internalCompileFunction (node:internal/vm:73:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1177:20)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1221:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1115:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:962:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1139:19)[39m
+[90m    at require (node:internal/modules/helpers:121:18)[39m
+    at Object.<anonymous> [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mbin/www:6:11[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1257:14)[39m
+
+Node.js v20.3.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [36m304 [0m22.222 ms - -[0m
+1
+[0mGET /statistics [32m200 [0m1.964 ms - 19[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mPOST /todos [32m200 [0m25.709 ms - 83[0m
+[0mGET /statistics [32m200 [0m3.697 ms - 20[0m
+[0mPOST /todos [32m200 [0m21.328 ms - 82[0m
+[0mGET /statistics [32m200 [0m2.940 ms - 21[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /statistics [36m304 [0m7.289 ms - -[0m
+[0mPOST /todos [32m200 [0m38.435 ms - 79[0m
+[0mGET /statistics [32m200 [0m2.636 ms - 21[0m
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /statistics [32m200 [0m22.978 ms - 20[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /statistics [32m200 [0m6.766 ms - 17[0m
+[0mGET /statistics [36m304 [0m6.861 ms - -[0m
+node:events:489
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1574:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/home/tuomas/programming/part12-containers-applications/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:511:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  errno: [33m-111[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+
+Node.js v20.3.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /statistics [36m304 [0m8.280 ms - -[0m
+[0mGET / [32m200 [0m2.097 ms - 127[0m
+[0mGET /todos [32m200 [0m36.578 ms - 648[0m
+[0mGET /statistics [36m304 [0m3.005 ms - -[0m
+[0mDELETE /todos/64e36b1c8721870710e798e3 [32m200 [0m17.859 ms - 2[0m
+[0mDELETE /todos/64e36aebe50d3f0699483a75 [32m200 [0m33.794 ms - 2[0m
+[0mGET /todos [32m200 [0m14.297 ms - 485[0m
+[0mDELETE /todos/64e36ad0e50d3f0699483a73 [32m200 [0m20.262 ms - 2[0m
+[0mPOST /todos [32m200 [0m70.811 ms - 79[0m
+[0mGET /todos [32m200 [0m5.814 ms - 481[0m
+[0mGET /todos [36m304 [0m25.994 ms - -[0m
+[0mGET /todos [36m304 [0m23.514 ms - -[0m
+[0mDELETE /todos/64e36d4fd5c5570d54787b1f [32m200 [0m6.511 ms - 2[0m
+[0mGET /todos [32m200 [0m6.266 ms - 401[0m
+[0mDELETE /todos/64e369783cefd304e1ae45fc [32m200 [0m20.278 ms - 2[0m
+[0mGET /todos [32m200 [0m8.473 ms - 324[0m
+[0mDELETE /todos/64e34cc34038eae166298245 [32m200 [0m22.371 ms - 2[0m
+[0mGET /todos [32m200 [0m5.678 ms - 249[0m
+[0mPOST /todos [32m200 [0m29.933 ms - 74[0m
+[0mGET /todos [32m200 [0m6.208 ms - 324[0m
+[0mGET /statistics [32m200 [0m1.900 ms - 19[0m
+[0mGET /statistics [36m304 [0m2.846 ms - -[0m
+[0mPOST /todos [32m200 [0m10.021 ms - 74[0m
+[0mGET /todos [32m200 [0m25.291 ms - 399[0m
+[0mGET /statistics [32m200 [0m3.140 ms - 19[0m
+[0mDELETE /todos/64e36db4d5c5570d54787b30 [32m200 [0m12.829 ms - 2[0m
+[0mDELETE /todos/64e36db4d5c5570d54787b30 [33m404 [0m4.546 ms - 9[0m
+[0mGET /todos [32m200 [0m4.025 ms - 324[0m
+[0mPOST /todos [32m200 [0m7.776 ms - 74[0m
+[0mGET /todos [32m200 [0m8.043 ms - 399[0m
+[0mDELETE /todos/64e36de6d5c5570d54787b37 [32m200 [0m26.757 ms - 2[0m
+[0mDELETE /todos/64e36d9bd5c5570d54787b2d [32m200 [0m9.014 ms - 2[0m
+[0mGET /todos [32m200 [0m5.035 ms - 249[0m
+^C]0;tuomas@scherzo:~/programming/part12-containers-applications/todo-app/todo-backend[?2004h[1;31m>[00m npm run dev
+[?2004l
+> todo-e
