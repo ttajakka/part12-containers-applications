@@ -1,4 +1,5 @@
 import React from 'react'
+import Todo from './Todo'
 
 const TodoList = ({ todos, deleteTodo, completeTodo }) => {
   const onClickDelete = (todo) => () => {
@@ -11,7 +12,7 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 
   return (
     <>
-      {todos.map(todo => {
+      {/* {todos.map(todo => {
         const doneInfo = (
           <>
             <span>This todo is done</span>
@@ -41,7 +42,14 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
             {todo.done ? doneInfo : notDoneInfo}
           </div>
         )
-      }).reduce((acc, cur) => [...acc, <hr />, cur], [])}
+      }).reduce((acc, cur) => [...acc, <hr />, cur], [])} */}
+      {todos.map((todo) => (
+        <Todo id={todo.id}
+          todo={todo}
+          onClickDelete={onClickDelete(todo)}
+          onClickComplete={onClickComplete(todo)}
+        />
+      )).reduce((acc, cur) => [...acc, <hr />, cur], [])}
     </>
   )
 }
