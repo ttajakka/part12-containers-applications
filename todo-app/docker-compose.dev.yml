@@ -3,12 +3,26 @@ services:
     image: todo-front-dev
     build:
       context: .
-      dockerfile: ./todo-front/dev.Dockerfile
+      dockerfile: ./todo-frontend/dev.Dockerfile
     volumes:
       - ./todo-frontend/:/usr/src/app
     ports:
       - 3000:3000
     container_name: todo-front-proxy
+
+  server:
+    image: todo-server-dev
+    # build:
+      # context: ./todo-backend
+      # dockerfile: ./todo-backend/dev.Dockerfile
+    ports:
+      - 3001:3001
+    # environment:
+      # - REDIS_URL=redis://redis:6379
+      # - MONGO_URL=mongodb://the_username:the_password@mongodb:27017/the_database
+    volumes:
+      - ./todo-backend:/usr/src/todo-app
+    container_name: todo-server-proxy
     
   nginx:
     image: nginx:1.20.1
@@ -19,3 +33,4 @@ services:
     container_name: reverse-proxy
     depends_on:
       - app
+      - server
